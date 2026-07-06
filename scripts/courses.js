@@ -108,6 +108,7 @@ function createCourseCard(courses) {
         let check = (course.completed == true)? "&#10004;":"";
         let a = document.createElement("a");
         a.setAttribute("class", course.completed);
+        a.setAttribute("href", `${course.subject}${course.number}.html`)
         a.innerHTML = `${check} ${course.subject} ${course.number}`;
         document.getElementById("course-list").appendChild(a);
     })

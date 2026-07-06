@@ -175,13 +175,13 @@ h2 {
     color: var(--color-1);
 }
 
+.course-list a.true {
+    background-color: var(--color-2);
+}
+
 .course-list a:hover {
     background-color: #30405B;
     color: var(--color-3);
-}
-
-.course-list a.true {
-    background-color: var(--color-2);
 }
 
 .total-credits{
@@ -223,5 +223,6 @@ footer {
 }
 
 .social a:hover {
-    background-color: var(--color-5);
+    border: 2px solid var(--color-2);
+    background-color: #ccc;
 }
