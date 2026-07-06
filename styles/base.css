@@ -1,0 +1,226 @@
+
+:root {
+  --just-center: center;
+  --align-center: center;
+  --text-align-center: center;
+  --pad-px-8: 8px;
+  --color-1: #3D405B;
+  --color-2:  #e07a5f;
+  --color-3: #ccc;
+  --color-4: #ddd;
+  --color-5: #eee;
+}
+
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* ******************* HEADER ******************** */
+
+header {
+  display: grid;
+  grid-template-columns: 24px auto 44px;
+  align-items: end;
+  padding: 5px 0 5px 10px;
+  border-bottom: solid 1px #ddd;
+  column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #3D405B;
+}
+
+/* ******************* HAMBURGER BUTTON ******************** */
+
+/* .hamburger::before {
+  content: "\2630";
+} */
+
+.hamburger {
+    background: none;
+    border: none;
+    color: var(--color-1);
+    cursor: pointer;
+}
+
+.hamburger:before {
+  content: "\2630";
+  font-size: 2rem;
+}
+
+.hamburger.show:before {
+  content: "\00D7";
+  font-size: 2rem;
+}
+
+/* ******************* NAVIGATION ******************** */
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: none;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: var(--color-1);
+    text-decoration: none;
+    border-bottom: solid 1px var(--color-4);
+}
+
+.navigation li.current {
+    background-color: var(--color-5);
+}
+
+.navigation a:hover {
+    background-color: var(--color-2);
+}
+
+
+/* ******************* MAIN ******************** */
+
+main {
+    text-align: center;
+}
+
+h1 {
+    margin-left: 1rem 10px;
+    color: var(--color-1);
+}
+
+.about-me, .profile-img-container, .courses-container {
+    margin: var(--pad-px-8);
+    padding-bottom: 20px;
+}
+
+.about-me, .profile-img-container {
+    background-color: var(--color-3);
+}
+/* ****************** About Me Sections *********** */
+
+h2 {
+    padding: var(--pad-px-8);
+    background-color: #30405B;
+    color: var(--color-5);
+}
+
+.about-me p {
+    padding: var(--pad-px-8);
+    background-color: var(--color-3);
+    text-align: left;
+}
+
+.profile-img-container {
+    background-color: var(--color-3);
+}
+
+.profile-img-container img {
+    border-radius: var(--pad-px-8);
+    width: 100%;
+    max-width: 200px;
+}
+
+/* ****************** Courses ******************** */
+.filter-btn-container {
+    display: flex;
+    margin: var(--pad-px-8);
+    justify-content: var(--just-center);
+    column-gap: 8px;
+}
+
+.filter-btn-container button {
+    padding: var(--pad-px-8);
+    background-color: var(--color-3);
+    border-radius: var(--pad-px-8);
+    font-weight: bolder;
+    width: 100%;
+    max-width: 150px;
+}
+
+.filter-btn-container button:hover {
+    padding: var(--pad-px-8);
+    border-radius: var(--pad-px-8);
+    background-color: var(--color-1);
+    color: var(--color-5);
+}
+
+.course-list a {
+    display: block;
+    margin-bottom: var(--pad-px-8);
+    border: 1px solid var(--color-1);
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: var(--color-3);
+    color: var(--color-1);
+}
+
+.course-list a:hover {
+    background-color: #30405B;
+    color: var(--color-3);
+}
+
+.course-list a.true {
+    background-color: var(--color-2);
+}
+
+.total-credits{
+    padding: var(--pad-px-8);
+}
+
+/* ******************* FOOTER ******************** */
+
+footer {
+    margin-top: 20px;
+    background-color: var(--color-5);
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: var(--pad-px-8);
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: solid 1px var(--color-3);
+    border-radius: 22px;
+}
+
+.social a:hover {
+    border: solid 4px var(--color-3);
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: var(--color-5);
+}

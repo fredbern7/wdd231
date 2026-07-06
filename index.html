@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Berny Fred Portfolio">
+    <meta name="author" content="Berny Fred">
+
+    <!-- Style Sheets Here -->
+     <link rel="stylesheet" href="styles/normalize.mini.css">
+     <link rel="stylesheet" href="styles/normalize.css">
+     <link rel="stylesheet" href="styles/base.css">
+     <link rel="stylesheet" href="styles/larger.css">
+
+     <script src="scripts/script.js" defer></script>
+     <script src="scripts/courses.js" defer></script>
+
+</head>
+<body>
+    <header>
+    <img src="images/home.svg" alt="site logo" width="1" height="1">
+    <span>Berny Fred</span>
+    <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="current"><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea distinctio quas, dicta voluptas recusandae, doloremque consequatur temporibus molestiae dolorem animi unde. Alias animi odit, placeat, quas debitis tenetur at adipisci ipsam consequuntur quidem distinctio aliquid. Deleniti atque, a commodi ducimus et incidunt aperiam sit quam pariatur nobis neque architecto ut animi voluptatum harum accusantium quaerat tenetur iusto rerum sint. Deserunt cumque eaque aliquid rerum. Dolores cupiditate tempora nam deleniti animi. Et ducimus saepe officia eligendi nihil eaque facere rem, reiciendis, neque cupiditate voluptatibus! Ducimus maiores consequuntur nam, rerum totam laudantium! Exercitationem libero nam placeat sapiente sit id laboriosam aliquid magni mollitia vel iusto corrupti doloremque, et nostrum? Vel ullam commodi aliquam, possimus nisi adipisci quo tempore vero, cupiditate tenetur atque repellat, earum animi recusandae quae praesentium placeat accusantium aspernatur? Dicta vitae blanditiis impedit cumque fuga aliquam illum vero totam quisquam magnam ipsum laborum eaque, dolore ratione eligendi, praesentium dignissimos libero.</p>
+        </section>
+        <section class="profile-img-container">
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="Berny Fred">
+        </section>
+        <section class="courses-container">
+            <h2>Web Certificate Courses</h2>
+            <div class="filter-btn-container">
+                <button id="filter-all-btn">All</button>
+                <button id="filter-cse-btn">CSE</button>
+                <button id="filter-wdd-btn">WDD</button>
+            </div>
+            <div class="course-list" id="course-list">
+
+            </div>
+            <span class="total-credits" id="total-credits">
+            </span>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="" target="_blank"><img src="images/github.svg" alt="gidhub" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+        </div>
+        <p>@<span id="currentyear">2026</span> | Berny Fred | Pohnpei, Micronesia</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
