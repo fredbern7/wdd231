@@ -146,6 +146,7 @@ h2 {
     margin: var(--pad-px-8);
     justify-content: var(--just-center);
     column-gap: 8px;
+    margin: 20px 0 10px 0;
 }
 
 .filter-btn-container button {

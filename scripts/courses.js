@@ -117,3 +117,4 @@ function createCourseCard(courses) {
     }, 0);
     document.getElementById("total-credits").textContent = `The total credits for the course listed above is ${totalCredits}`;
 }
+
