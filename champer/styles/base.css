@@ -161,11 +161,13 @@ h1 {
     border-radius: var(--border-radius);
     box-shadow: 1px 1px 10px 1px var(--primary-color);
 }
+
 .grid {
     display: block;
     margin: 0 auto;
     padding: 0;
-    section {
+    
+    & section {
         display: grid;
         margin: 10px;
         padding: 10px 0;
@@ -173,7 +175,7 @@ h1 {
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto auto auto auto auto;
     
-        &.contact h2{
+        &.contact h2 {
             grid-row: 1/2;
             grid-column: 1/4;
             text-align: center;
@@ -209,39 +211,38 @@ h1 {
             grid-column: 2/4;
         }
     }
-
 }
 
 .list {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
     margin-top: 0;
 
-	section {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-		margin: 0;
-		padding: 0.25rem;
+    & section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+        margin: 0;
+        padding: 0.25rem;
         box-shadow: none;
 
-		& > * {
-			margin: 0 1rem;
+        & > * {
+            margin: 0 1rem;
             text-align: left;
-		}
+        }
 
-		img {
-			display: none;
-		}
+        & img {
+            display: none;
+        }
 
-		h2 {
-			font-size: 1rem;
-		}
+        & h2 {
+            font-size: 1rem;
+        }
 
-		&:nth-child(even) {
-			background-color: rgb(236, 218, 218);
-		}
-	}
-}  
+        &:nth-child(even) {
+            background-color: rgb(236, 218, 218);
+        }
+    }
+}
 
 /* main -directory - section - end */
 
