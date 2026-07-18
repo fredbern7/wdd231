@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 | Berny Fred</title>
+    <meta name="description" content="This page is for WDD 231 Class project: Chamber of commerce. Berny Fred is the Developer.">
+    <meta name="author" content="Berny Fred">
+ 
+    <!-- OG meta properties -->
+    <meta property="og:description" content="This page is for WDD 231 Class project: Chamber of commerce. Berny Fred is the Developer.">
+    <meta property="og:image" content="https://fredbern7.github.io/wdd231/champer">
+    <meta property="og:title" content="Chamber Directory">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Style Sheets Here -->
+     <link rel="stylesheet" href="css/normalize.mini.css">
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/base.css">
+     <link rel="stylesheet" href="css/larger.css">
+
+     <script src="javascript/script.js" defer></script>
+     <script src="javascript/directory.js" defer></script>
+
+</head>
+<body>
+    <header>
+    <img src="images/home.svg" alt="site logo" width="1" height="1">
+    <span>Berny Fred</span>
+    <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="current"><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">join</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h1>Directory</h1>
+        <div class="sort-btn-container">
+            <button type="button" class="sort-btn active-btn" id="grid">Grid</button>
+            <button type="button" class="sort-btn" id="list">List</button>
+        </div>
+        <div class="hide" id="list-headings">
+            <p>Business</p>
+            <p>Tag Line</p>
+            <p>Email</p>
+            <p>Phone</p>
+            <p>URL</p>
+        </div>
+        <article class="grid" id="contact-container">
+        </article>
+    </main>
+    <footer>
+        <div class="footer-company">
+            <p>
+                <span class="bold">AMBAIA Chamber of Commerce</span>
+            </p>
+            <p>
+                10th street Pohrakiet
+            </p>
+            <p>
+                AMBAIA, FM 96941
+            </p>
+            <P>
+                ambaia@gmail.com
+            </P>
+            <p>
+                (61) 926-2468
+            </p>
+        </div>
+        <div class="social">
+            <a href="https://github.com/fredbern7" target="_blank"><img src="images/github.svg" alt="gidhub" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/bernyfred/" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a href="https://www.facebook.com/berny.fred.37" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+        </div>
+        <div class="berny">
+        <p>WDD231 Class Project</p>
+        <p>@<span id="currentyear">2026</span> | Berny Fred | Pohnpei, Micronesia</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

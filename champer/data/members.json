@@ -1,0 +1,85 @@
+{
+    "members": [
+        {        
+            "name": "Yoshie Enterprise",
+            "tag": "Come All",
+            "email": "customer@yoshie.fm",
+            "phone": "320-5432",
+            "url": "yoshie.fm",
+            "img": "yoshie.jpg",
+            "membership": 1
+        },
+        {        
+            "name": "Ace Hardware",
+            "tag": "Your Local Helpful Place",
+            "email": "customer@yoshie.fm",
+            "phone": "320-2723",
+            "url": "acehardware.fm",
+            "img": "ace-hardware.jpg",
+            "membership": 1
+        },
+        {        
+            "name": "Ray & Doors",
+            "tag": "Come one Come All",
+            "email": "ray-dors@ray-dors.fm",
+            "phone": "320-5432",
+            "url": "ray-dors.fm",
+            "img": "ray-dors.jpg",
+            "membership": 2
+        },
+        {        
+            "name": "Ace Commercial",
+            "tag": "tag line",
+            "email": "customer@ace-commercial.fm",
+            "phone": "320-2518",
+            "url": "ace-commercial.fm",
+            "img": "ace-commercial.jpg",
+            "membership": 3
+        },
+        {        
+            "name": "A One Mart",
+            "tag": "tag line",
+            "email": "customer@aonemart.fm",
+            "phone": "320-2537",
+            "url": "aonemart.fm",
+            "img": "a-one-mart.jpg",
+            "membership": 3
+        },
+        {        
+            "name": "Ace Office Supplies",
+            "tag": "tag line",
+            "email": "customer@yoshie.fm",
+            "phone": "320-8279",
+            "url": "ace-office.fm",
+            "img": "ace-office.jpg",
+            "membership": 2
+        },
+        {        
+            "name": "Blue Nile",
+            "tag": "Buy Your Daily Product Here",
+            "email": "customer@bluenile.fm",
+            "phone": "320-5432",
+            "url": "bluenile.fm",
+            "img": "blue-nile.jpg",
+            "membership": 1
+        },
+        {        
+            "name": "Ellen's Marget",
+            "tag": "Your Local Foods",
+            "email": "customer@ellen-market.fm",
+            "phone": "320-2747",
+            "url": "ellen-market.fm",
+            "img": "ellen-market.jpg",
+            "membership": 2
+        },
+        {        
+            "name": "Isamu Nakasone Store (INS)",
+            "tag": "Get More and More",
+            "email": "customer@ins-pohnpei.fm",
+            "phone": "320.2802",
+            "url": "ins-pohnpei.fm",
+            "img": "ins.jpg",
+            "membership": 1
+        }
+    ]
+}
