@@ -3,9 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>WDD 231 | Berny Fred</title>
+    <meta name="description" content="This page is for WDD 231 Class. Berny Fred is the Developer.">
+    <meta name="author" content="Berny Fred">
+
+    <!-- OG meta properties -->
+    <meta property="og:description" content="Discover a page for this WWD231 Student">
+    <meta property="og:image" content="https://fredbern7.github.io/wdd231/">
+    <meta property="og:title" content="Homepage - About Berny Fred">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Style Sheets Here -->
+     <link rel="stylesheet" href="styles/normalize.mini.css">
+     <link rel="stylesheet" href="styles/normalize.css">
+     <link rel="stylesheet" href="styles/base.css">
+     <link rel="stylesheet" href="styles/larger.css">
+
+     <script src="scripts/script.js" defer></script>
+     <script src="scripts/courses.js" defer></script>
+
 </head>
 <body>
-    
+    <header>
+    <img src="images/home.svg" alt="site logo" width="1" height="1">
+    <span>Berny Fred</span>
+    <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="chamber.html">Chamber Project</a></li>
+            <li><a href="final.html">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Hi, My name is Berny Fred. I am a BYU PATHWAY student attend from Pohnpei, Micronesia. I am so grateful to have this rare opportunity to be able to enrolled into this online program. I joined last year and I am taking WDD 231 as my last course to complete my first Certificate in web development.</p>
+            <p>This is another stepping stone that opens up opportunities for me to grow. </p>
+        </section>
+        <section class="profile-img-container">
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="Berny Fred">
+        </section>
+        <section class="courses-container">
+            <h2>Web Certificate Courses</h2>
+            <div class="filter-btn-container">
+                <button id="filter-all-btn">All Courses</button>
+                <button id="filter-cse-btn">CSE Courses</button>
+                <button id="filter-wdd-btn">WDD Courses</button>
+            </div>
+            <div class="course-list" id="course-list">
+
+            </div>
+            <span class="total-credits" id="total-credits">
+            </span>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/fredbern7" target="_blank"><img src="images/github.svg" alt="gidhub" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/bernyfred/" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a href="https://www.facebook.com/berny.fred.37" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+        </div>
+        <p>@<span id="currentyear">2026</span> | Berny Fred | Pohnpei, Micronesia</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
