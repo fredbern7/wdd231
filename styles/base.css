@@ -143,7 +143,6 @@ h2 {
 /* ****************** Courses ******************** */
 .filter-btn-container {
     display: flex;
-    margin: var(--pad-px-8);
     justify-content: var(--just-center);
     column-gap: 8px;
     margin: 20px 0 10px 0;
@@ -216,14 +215,11 @@ footer {
 
 .social a:hover {
     border: solid 4px var(--color-3);
+    border: 2px solid var(--color-2);
+    background-color: #ccc;
 }
 
 .social img {
     width: 22px;
     height: 22px;
-}
-
-.social a:hover {
-    border: 2px solid var(--color-2);
-    background-color: #ccc;
 }
