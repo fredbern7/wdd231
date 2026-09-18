@@ -274,7 +274,8 @@ footer {
 }
 
 .social a:hover {
-    border: solid 4px var(--color-3);
+    border: 2px solid var(--color-2);
+    background-color: #ccc;
 }
 
 .social img {
@@ -282,7 +283,3 @@ footer {
     height: 22px;
 }
 
-.social a:hover {
-    border: 2px solid var(--color-2);
-    background-color: #ccc;
-}
