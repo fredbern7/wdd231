@@ -1,7 +1,7 @@
 @media only screen and (min-width: 38rem) {
-    header, main, nav, footer {
+    header, main, nav, footer, .sort-btn-container {
         max-width: 1200px;
-        margin: 0 auto;
+        margin: 24px auto;
     }
 
     header {
@@ -34,14 +34,12 @@
     }
 
     .navigation li.current {
-        background-color: var(--primary);
-        color: var(--text-dark);
+        background-color: #ffff;
         font-weight: bolder;
         text-decoration: underline;
     }
 
     .navigation a:hover {
-        background-color: var(--primary);
         text-decoration: underline;
     }
 
@@ -50,11 +48,16 @@
     h1 {
         grid-row: 1/2;
         grid-column: 1/4;
+        text-align: left;
     }
 
     /* main directory section */
 
-
+    .sort-btn-container {
+        justify-content:left;
+        margin-left: 12px;
+        gap: 10px;
+    }
 
     .grid {
         margin: 0 auto;
@@ -62,7 +65,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
         grid-gap: 25px;
-        justify-content: center;
+        justify-content: left;
     }
 
 

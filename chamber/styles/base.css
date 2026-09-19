@@ -7,12 +7,13 @@
   --padding-8px: 8px;
   --padding-10px: 10px;
   --padding-15px: 15px;
-  --primary-color: #fb981f;
-  --secondary-color: #3b3170;
+  --primary-color: #0047AB;
+  --secondary-color: #00A896;
   --background-color: #f8fafc;
-  --text-dark: #181818;
-  --text-white: #e0e4e9;
-  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --background-color2: #abd2fa;
+  --dark: #181818;
+  --white: #ffff;
+  --font-family: "Inter", sans-serif;
   --border-radius: 5px;
 }
 
@@ -33,12 +34,11 @@ header {
   display: grid;
   grid-template-columns: 24px auto 44px;
   grid-template-rows: auto auto;
-  align-items: end;
+  align-items: center;
   padding: 5px 10px 5px 10px;
-  border-bottom: solid 1px var(--text-dark);
-  background-color: var(--primary-color);
-  color: var(--text-white);
+  color: var(--dark);
   column-gap: 8px;
+  font-size: 25px;
 }
 
 header img {
@@ -49,7 +49,8 @@ header img {
 }
 
 header span {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 /* ******************* HAMBURGER BUTTON ******************** */
@@ -95,7 +96,6 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: var(--color-1);
     text-decoration: none;
 }
 
@@ -127,6 +127,7 @@ h1 {
     grid-template-columns: 75px 75px;
     justify-content: center;
     gap: 10px;
+    border:none;
 }
 
 .sort-btn {
@@ -135,7 +136,7 @@ h1 {
 }
 
 .active-btn {
-    background-color: var(--primary-color);
+    background-color: var(--color-2);
 }
 .bold-contact {
     display: none;
@@ -149,7 +150,7 @@ h1 {
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     font-weight: bolder;
-    background-color: var(--primary-color);
+    border: solid 1px var(--dark);
 }
 .display p {
     margin: 0 1rem;
@@ -186,16 +187,13 @@ h1 {
         .business-tag-line {
             grid-row: 2/3;
             grid-column: 1/4;
-            border-bottom: 3px gray solid;
             text-align: center;
         }
         .contact-img {
             grid-row: 3/7;
             grid-column: 1/2;
             padding: 10px;
-            width: 100%;
-            max-width: 300px;
-            height: 100px;
+            width: 124px;
         }
         .email {
             grid-row: 3/4;
@@ -238,7 +236,12 @@ h1 {
         }
 
         &:nth-child(even) {
-            background-color: rgb(236, 218, 218);
+            background-color: var(--background-color3);
+            border: solid 1px var(--dark);
+        }
+        &:nth-child(odd) {
+            background-color: var(--background-color3);
+            border: solid 1px var(--dark);
         }
     }
 }
@@ -252,15 +255,16 @@ h1 {
 
 footer {
     margin-top: 20px;
-    background-color: var(--primary-color);
     padding: 1rem 10px;
-    text-align: left;
+    text-align: center;
+    color: var(--text-white);
 }
 
 .social {
     display: flex;
     justify-content: center;
     column-gap: var(--pad-px-8);
+    margin: 12px;
 }
 
 .social a {
@@ -269,7 +273,6 @@ footer {
     align-items: center;
     width: 44px;
     height: 44px;
-    border: solid 1px var(--color-3);
     border-radius: 22px;
 }
 
