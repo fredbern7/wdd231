@@ -279,6 +279,12 @@ h1 {
     background-color: rgb(133, 175, 175);
 }
 
+.current_weather,.forecast-card {
+    margin: 20px auto;
+    padding: 8px;
+    width: 90%;
+    border: #0047AB 2px solid;
+}
 /* ******************* FOOTER ******************** */
 
 footer {
