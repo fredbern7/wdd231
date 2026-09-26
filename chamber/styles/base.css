@@ -245,15 +245,39 @@ h1 {
 }
 
 /* main -directory - section - end */
-
-
-/* main - ends - here */
-
 /* main home starts here */
 
+.hero img {
+    width: 100%;
+}
 
+.hero-title {
+    position: absolute;
+    display: block;
+    top: 10rem;
+}
 
 /* main home ends here */
+
+.call-to-action {
+    position: relative;
+    z-index: 1;
+    top: -80px;
+    border: #0b1729 2px solid;
+    border-radius: 4px;
+    box-shadow: 01px 12px rgba(1, 123, 245, 0.4);
+    padding: 6px 50px;
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.call-to-action:hover {
+    cursor: pointer;
+    background-color: rgb(133, 175, 175);
+}
 
 /* ******************* FOOTER ******************** */
 
