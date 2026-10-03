@@ -377,17 +377,6 @@ form {
     border-radius: 4px;
 }
 
-/* #np-open, #bronze-open, #silver-open, #gold-open {background-color: rgb(138, 152, 255);} */
-/* #np-modal, #bronze-modal, #silver-modal, #gold-modal {
-    display: block;
-    background-color: lavender;
-} */
-/* #np-close, #bronze-close, #silver-close, #gold-close {background-color: rgb(226, 209, 226);} */
-
-::backdrop {
-    background-color: rgba(90, 88, 99, 0.5);
-}
-
 #np-modal, #bronze-modal, #silver-modal, #gold-modal {
   margin:30px auto;
   text-align: left;

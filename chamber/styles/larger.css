@@ -1,5 +1,10 @@
 @media only screen and (min-width: 38rem) {
-    header, main, nav, footer, .sort-btn-container {
+
+    header,
+    main,
+    nav,
+    footer,
+    .sort-btn-container {
         max-width: 1200px;
         margin: 24px auto;
     }
@@ -54,7 +59,7 @@
     /* main directory section */
 
     .sort-btn-container {
-        justify-content:left;
+        justify-content: left;
         margin-left: 12px;
         gap: 10px;
     }
@@ -69,23 +74,21 @@
     }
 
 
-/* join starts here  */
+    /* join starts here  */
 
-.join-wrapper {
-    display: grid;
-    padding: 12px;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-}
+    .join-wrapper {
+        display: grid;
+        padding: 12px;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
 
-.level-details div {
+    .level-details div {}
 
-}
+    h2 {
 
-h2 {
-
-    text-align: left;
-}
+        text-align: left;
+    }
 
 
     /* main directory section ends here */
