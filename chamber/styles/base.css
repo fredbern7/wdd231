@@ -377,7 +377,7 @@ form {
     border-radius: 4px;
 }
 
-#np-open, #bronze-open, #silver-open, #gold-open {background-color: rgb(138, 152, 255);}
+/* #np-open, #bronze-open, #silver-open, #gold-open {background-color: rgb(138, 152, 255);} */
 /* #np-modal, #bronze-modal, #silver-modal, #gold-modal {
     display: block;
     background-color: lavender;
