@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micronesia Chamber of Commerce Home</title>
+    <meta name="description"
+        content="This page is for WDD 231 Class project: Micronesia of commerce Home Page. Berny Fred is the Developer.">
+    <meta name="author" content="Berny Fred">
+
+    <!-- OG meta properties -->
+    <meta property="og:description"
+        content="This page is for WDD 231 Class project: Micronesian Chamber of commerce Home Page. Berny Fred is the Developer.">
+    <meta property="og:image" content="https://fredbern7.github.io/wdd231/chamber/images/favicon.ico">
+    <meta property="og:url" content="https://fredbern7.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content="AMBAIA Chamber Directory">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Style Sheets Here -->
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/home.png" alt="site logo" width="1" height="1">
+        <span>Micronesia Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="join.html">join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Join</h1>
+        <div class="join-wrapper">
+            <div class="form">
+                <h2>Membership Application Form</h2>
+                <form method="GET" action="thankyou.html" class="designOne">
+                    <label>First Name <input type="text" name="first" required autocomplete="given-name"
+                            title="Your First Name"></label>
+                    <label>Last Name <input type="text" name="last" required autocomplete="family-name"
+                            title="Your Last Name"></label>
+                    <label>Organization title <input type="text" name="orgtitle" required
+                            autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"
+                            title="Your Job Title (minimum 7 characters)"></label>
+                    <label>Email <input type="email" name="email" required placeholder="john89@gmail.com"
+                            title="Your Email" autocomplete="email"></label>
+                    <label>Cell Phone <input type="tel" name="phone" required autocomplete="tel"
+                            title="A Phone Number with dashes" placeholder="987-555-1234"></label>
+                    <label>Business/Organization's Name <input type="text" name="orgname" required
+                            autocomplete="organization" title="Your Business Name"></label>
+                    <h3>Select membership level</h3>
+                    <label><input type="radio" name="membership" value="np" checked> NP</label>
+                    <label><input type="radio" name="membership" value="bronze"> Bronze</label>
+                    <label><input type="radio" name="membership" value="silver"> Silver</label>
+                    <label><input type="radio" name="membership" value="gold"> Gold</label>
+                    <label> Business Description: <textarea name="description"
+                            title="Enter a brief description of your business"></textarea></label>
+                    <input type="hidden" id="timestamp" name="timestamp">
+                    <input type="submit" value="Become Member Now">
+                </form>
+            </div>
+            <div class="level-details">
+                <h2>Membership Levels</h2>
+                <div>
+                    <p>Non Profit Membership Level</p>
+                    <button id="np-open">
+                        Learn More
+                    </button>
+                </div>
+                <dialog id="np-modal">
+                    <h2>Non Profit Membership</h3>
+                        <hr>
+                        <h3>Benefits Include:</h3>
+                        <ul>
+                            <li>Directory listing in the Pohnpei Chamber of Commerce member directory</li>
+                            <li>Access to community notices and notices regarding local government public hearings</li>
+                            <li>Invitation to monthly Chamber general meetings and networking gatherings</li>
+                        </ul>
+                        <p>COST: Free</p>
+                        <button id="np-close">X</button>
+                </dialog>
+                <div>
+                    <p>Bronze Membership Level</p>
+                    <button id="bronze-open">
+                        Learn More
+                    </button>
+                </div>
+                <dialog id="bronze-modal">
+                    <h2>Non Profit Membership</h3>
+                        <hr>
+                        <h3>Benefits Include:</h3>
+                        <ul>
+                            <li>All NP Membership benefits included</li>
+                            <li>Enhanced business directory listing including your physical location
+                                (Kolonia/Madolenihmw), phone contact, and social media links</li>
+                            <li>Member pricing discounts for attending local business capacity-building workshops and
+                                export/import seminars</li>
+                            <li>One-time-per-year promotional feature in the Chamber’s digital newsletter</li>
+                        </ul>
+                        <p>COST: $50</p>
+                        <button id="bronze-close">X</button>
+                </dialog>
+                <div>
+                    <p>Silver Membership Level</p>
+                    <button id="silver-open">
+                        Learn More
+                    </button>
+                </div>
+                <dialog id="silver-modal">
+                    <h2>Non Profit Membership</h3>
+                        <hr>
+                        <h3>Benefits Include:</h3>
+                        <ul>
+                            <li>All Bronze Membership benefits included</li>
+                            <li>Priority registration and free entry for up to two representatives at all quarterly
+                                Chamber luncheons and networking mixers</li>
+                            <li>A digital "Proud Chamber Member" badge and high-resolution window sticker for display at
+                                your storefront or office in Pohnpei</li>
+                            <li>Dedicated business spotlight post on official social media channels during Small
+                                Business Week</li>
+                        </ul>
+                        <p>COST: $75</p>
+                        <button id="silver-close">X</button>
+                </dialog>
+                <div>
+                    <p>Gold Membership Level</p>
+                    <button id="gold-open">
+                        Learn More
+                    </button>
+                </div>
+                <dialog id="gold-modal">
+                    <h2>Non Profit Membership</h3>
+                        <hr>
+                        <h3>Benefits Include:</h3>
+                        <ul>
+                            <li>All Silver Membership benefits included</li>
+                            <li>Premium rotating banner ad placement on the Pohnpei Chamber of Commerce website homepage
+                            </li>
+                            <li>Complimentary entry for your entire management team to major annual Chamber events,
+                                trade expos, and networking banquets</li>
+                            <li>Direct advocacy opportunities and consultation seating on local economic development and
+                                tourism committees</li>
+                        </ul>
+                        <p>COST: $100</p>
+                        <button id="gold-close">X</button>
+                </dialog>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+        <div class="footer-company">
+            <p>
+                <span class="bold">Micronesian Chamber of eCommerce</span>
+            </p>
+            <p>
+                10th street Pohrakiet
+            </p>
+            <p>
+                MCE, FM 96941
+            </p>
+            <p>
+                MCE@gmail.com
+            </p>
+            <p>
+                (61) 926-2468
+            </p>
+        </div>
+        <div class="social">
+            <a rel="preconnect" href="https://github.com/fredbern7" target="_blank"><img src="images/github.svg"
+                    alt="gidhub" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.linkedin.com/in/bernyfred/" target="_blank"><img
+                    src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.facebook.com/berny.fred.37" target="_blank"><img
+                    src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg"
+                    alt="twitter" width="16" height="16"></a>
+        </div>
+        <div class="berny">
+            <p>WDD231 Class Project</p>
+            <p>@<span id="currentyear">2026</span> | Berny Fred | Pohnpei, Micronesia</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
