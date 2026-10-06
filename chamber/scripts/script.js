@@ -30,7 +30,7 @@ async function apiFetch() {
     const response = await fetch(weather);
     if (response.ok) {
       const data = await response.json();
-      console.log(data); // testing only
+      // console.log(data); // testing only
       displayResults(data); // uncomment when ready
     } else {
         throw Error(await response.text());
@@ -44,7 +44,7 @@ async function forcastApiFetch() {
     const response = await fetch(forecast);
     if (response.ok) {
       const data = await response.json();
-      console.log(data); // testing only
+      // console.log(data); // testing only
       displayForcast(data); // uncomment when ready
     } else {
         throw Error(await response.text());
@@ -55,7 +55,7 @@ async function forcastApiFetch() {
 }
 
 function displayResults(data){
-  console.log("hello");
+  // console.log("hello");
   myTown.innerHTML=data.name;
   myDescription.innerHTML=data.weather[0].description;
   myTemperature.innerHTML=`${data.main.temp}&deg;C`;

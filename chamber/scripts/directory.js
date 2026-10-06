@@ -34,7 +34,7 @@ const fetchData = async (url) => {
   try {
     const response = await fetch(url); // Wait for the fetch to complete
     const data = await response.json(); // Wait for the response to be converted to JSON
-    console.log(data); // Output the fetched data
+    // console.log(data); // Output the fetched data
     const members = data.members;
     displayMembers(members);
   } catch (error) {

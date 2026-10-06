@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
 
     header,
     main,
@@ -93,6 +93,12 @@
 
     /* main directory section ends here */
 
+
+    /* ***************** DISCOVER ********************  */
+    #allplaces {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     /* footer */
     footer {
         display: grid;

@@ -1,6 +1,6 @@
-console.log('hello')
-const getString = window.location.search;
-console.log(getString);
+// console.log('hello')
+// const getString = window.location.search;
+// console.log(getString);
 
 const client = new URLSearchParams(window.location.search);
 
