@@ -425,7 +425,7 @@ form {
     "name"
     "photograph"
     "description"
-    "location";
+    "address"
 }
 
 #allplaces div h2 {
@@ -445,7 +445,7 @@ form {
 
 #allplaces div address {
     margin: 1rem 10px;
-    grid-area: location;
+    grid-area: addrees;
 }
 
 
