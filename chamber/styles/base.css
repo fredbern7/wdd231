@@ -8,7 +8,7 @@
   --padding-10px: 10px;
   --padding-15px: 15px;
   --primary-color: #0047AB;
-  --secondary-color: #00A896;
+  --secondary-color: #6ba4f3;
   --background-color: #f8fafc;
   --background-color2: #abd2fa;
   --dark: #181818;
@@ -415,7 +415,7 @@ form {
 #allplaces div {
     margin: 1rem 8px;
     border: 1px solid var(--secondary-color);
-    background-color: var(--background-color2);
+    background-color: var(--background-color);
     border-radius: 8px;
     overflow: hidden;
 
@@ -426,6 +426,9 @@ form {
     "photograph"
     "description"
     "address"
+    "button";
+
+    align-items: flex-start;
 }
 
 #allplaces div h2 {
@@ -446,6 +449,22 @@ form {
 #allplaces div address {
     margin: 1rem 10px;
     grid-area: addrees;
+}
+
+#allplaces div button {
+    margin: 1rem 0px;
+    height: 45px;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    font-weight: bolder;
+    cursor: pointer;
+    grid-area: button;
+    
+}
+#allplaces div button:active {
+    background-color: var(--secondary-color);
+    color: var(--dark);
 }
 
 

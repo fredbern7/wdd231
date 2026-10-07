@@ -17,7 +17,10 @@ function createCard(x) {
         <img src="images/${x.image_link}.webp" alt="${x.name}" loading="lazy">
         <h2>${x.name}</h2>
         <p>${x.description}</p>
+
         <div>${x.address}</div>
+        
+        <button id="learn-more">Learn more</b>
     `;
 
     container.appendChild(card);
