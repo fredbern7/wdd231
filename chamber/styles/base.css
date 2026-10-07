@@ -171,9 +171,19 @@ h1 {
 }
 
 .grid {
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+    grid-gap: 25px;
+    justify-content: left;
+/* }
+
+
+.grid {
     display: block;
     margin: 0 auto;
-    padding: 0;
+    padding: 0; */
     
     & section {
         display: grid;
@@ -578,14 +588,7 @@ footer {
         gap: 10px;
     }
 
-    .grid {
-        margin: 0 auto;
-        padding: 1rem 0;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
-        grid-gap: 25px;
-        justify-content: left;
-    }
+
 
 
     /* join starts here  */
