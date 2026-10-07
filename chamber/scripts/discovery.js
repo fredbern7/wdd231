@@ -14,11 +14,26 @@ function createCard(x) {
 
     const card = document.createElement('div');
     card.innerHTML = `
-        <img src="images/${x.image_link}.webp" alt="${x.name}">
+        <img src="images/${x.image_link}.webp" alt="${x.name}" loading="lazy">
         <h2>${x.name}</h2>
         <p>${x.description}</p>
         <div>${x.address}</div>
     `;
 
     container.appendChild(card);
+}
+
+let visit = Number(window.localStorage.getItem("visits")) || 0;
+
+if (numVisits !== 0) {
+    numVisits++;
+} else {
+    numVisits = 1;
+}
+
+window.localStorage.setItem("visits", numVisits);
+
+const visitsDisplay = document.querySelector("#visits");
+if (visitsDisplay) {
+    visitsDisplay.textContent = numVisits;
 }

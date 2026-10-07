@@ -99,6 +99,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    #allplaces img:hover{
+        width: 320px;
+        height: 210px;
+    }
     /* footer */
     footer {
         display: grid;
