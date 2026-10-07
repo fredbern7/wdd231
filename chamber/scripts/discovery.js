@@ -14,7 +14,7 @@ function createCard(x) {
 
     const card = document.createElement('div');
     card.innerHTML = `
-        <img src="images/${x.image_link}.webp" alt="${x.name}" loading="lazy">
+        <img src="images/${x.image_link}.webp" alt="${x.name}" width="300" height="200" loading="lazy">
         <h2>${x.name}</h2>
         <p>${x.description}</p>
 
