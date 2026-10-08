@@ -65,17 +65,25 @@ if ("IntersectionObserver" in window) {
   });
 }
 
-let visits = Number(window.localStorage.getItem("visits")) || 0;
+const message = document.querySelector("#message");
 
-if (visits !== 0) {
-    visits++;
+const lastVisit = localStorage.getItem("visit-date");
+const currentTime = Date.now();
+
+if (!lastVisit) {
+    messageContainer.textContent = "Welcome! Let us know if you have any questions.";
 } else {
-    visits = 1;
+    const timeDifference = currentTime - Number(lastVisit);
+    const millisecondsPerDay = 1000 * 60 * 60 * 24;
+    const daysDifference = Math.floor(timeDifference / millisecondsPerDay);
+
+    if (timeDifference < millisecondsPerDay) {
+        messageContainer.textContent = "Back so soon! Awesome!";
+    } else if (daysDifference === 1) {
+        messageContainer.textContent = "You last visited 1 day ago.";
+    } else {
+        messageContainer.textContent = `You last visited ${daysDifference} days ago.`;
+    }
 }
 
-window.localStorage.setItem("visits", visits);
-
-const visitsDisplay = document.querySelector("#visits");
-if (visitsDisplay) {
-    visitsDisplay.textContent = visits;
-}
+localStorage.setItem("visit-date", currentTime);

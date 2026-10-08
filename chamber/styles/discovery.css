@@ -152,6 +152,13 @@ h1 {
     color: var(--dark)
 }
 
+#message {
+    font-size: larger;
+    margin: 3px;
+    padding: 4px;
+    font-weight: bolder;
+    background-color: yellowgreen;
+}
 /* lazy load */
 
 img.lazy {
@@ -288,6 +295,12 @@ footer {
     #allplaces address {
         background-color: aquamarine;
         width: 100%
+    }
+
+    
+    #allplaces img:hover {
+        width: 310px;
+        height: 205px;
     }
 
     footer {
