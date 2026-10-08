@@ -1,0 +1,7 @@
+@media only screen and (min-width: 38rem) {
+  
+    body {
+        margin: 10px auto;
+        width: 40rem;
+    }
+}

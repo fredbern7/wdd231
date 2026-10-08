@@ -1,0 +1,101 @@
+:root {
+    --just-center: center;
+    --align-center: center;
+    --text-align-center: center;
+    --pad-px-8: 8px;
+    --padding-8px: 8px;
+    --padding-10px: 10px;
+    --padding-15px: 15px;
+    --primary-color: #1b5299;
+    --secondary-color: #2d8a4e;
+    --accent-color: #d4af37;
+    --text-color: #22252a;
+    --background-color: #f8f9fa;
+    --white: #ffff;
+    --font-family: "Inter", sans-serif;
+    --border-radius: 5px
+}
+
+/* .chelsea-market-regular { */
+body {
+  font-family: "Chelsea Market", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+ul li {
+    text-align: left;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+
+.color-scheme {
+    background-color: #adb2ba;
+    padding: 8px;
+}
+
+.wireframe-container {
+    background-color: #adb2ba;
+    padding: 8px;
+}
+
+.color-scheme p {
+    text-align: left;
+}
+.primary {
+    width: 175px;
+    padding: 8px;
+    background-color: var(--primary-color);
+    color: #f8fafc;
+    font-weight: bolder;
+    border: 1px solid #060606;
+}
+
+.secondary {
+    width: 175px;
+    padding: 8px;
+    background-color: var(--secondary-color);
+    color: #f8fafc;
+    font-weight: bolder;
+    border: 1px solid #060606;
+}
+
+.accent {
+    width: 175px;
+    padding: 8px;
+    background-color: var(--accent-color);
+    color: #060606;
+    font-weight: bolder;
+    border: 1px solid #060606;
+}
+
+.text {
+    width: 175px;
+    padding: 8px;
+    background-color: var(--text-color);
+    color: #f8fafc;
+    font-weight: bolder;
+    border: 1px solid #060606;
+}
+
+.background {
+    width: 175px;
+    padding: 8px;
+    background-color: var(--background-color);
+    color: #060606;
+    font-weight: bolder;
+    border: 1px solid #060606;
+}
+
+.logo {
+    width: 200px;
+    border: 1px solid #060606;
+}
+
+.wireframe {
+    width: 100%;
+}
