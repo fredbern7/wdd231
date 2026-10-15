@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapinga Community Home Page</title>
+    <meta name="description" content="This page is for WDD 231 Class project: Kapinga Community about-page. Berny Fred is the Developer.">
+    <meta name="author" content="Berny Fred">
+ 
+    <!-- OG meta properties -->
+    <meta property="og:description" content="This page is for WDD 231 Class project: Kapinga Community Home Page. Berny Fred is the Developer.">
+    <meta property="og:image" content="https://fredbern7.github.io/wdd231/final/images/favicon.ico">
+    <meta property="og:url" content="https://fredbern7.github.io/wdd231/final/index.html">
+    <meta property="og:title" content="AMBAIA Chamber Directory">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Style Sheets Here -->
+     <link rel="stylesheet" href="styles/normalize.mini.css">
+     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+        <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script src="scripts/menu-footer.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="site logo" width="1" height="1">
+        <span>Kapinga Community</span>
+        <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="culture.html">Culture/Tradition</a></li>
+                <li><a href="events.html">Event/New</a></li>
+                <li class="current"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="message"></div>
+        <section class="hero-container">
+            <div class="hero-wrapper">
+                <picture class="hero-picture">
+                    <source media="(max-width: 600px)" srcset="images/culture-hero-small.webp">
+                    <source media="(max-width: 1024px)" srcset="images/culture-hero-medium.webp">
+                    <img src="images/culture-hero.webp" alt="Contact Kapinga Community" loading="eager">
+                </picture>
+            </div>
+
+            <div class="hero-content-wrapper">
+                <div class="hero-content">
+                    <h1>Get in Touch</h1>
+                    <p>We would love to hear from you. Reach out with questions, stories, or community suggestions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-container">
+            <div class="contact-grid">
+
+                <div class="contact-info-card">
+                    <h2>Connect With Us</h2>
+                    <p>
+                        Whether you are looking to connect with family members, share an oral history, or suggest an upcoming event, our community doors are always open.
+                    </p>
+                    
+                    <ul class="contact-details-list">
+                        <li>
+                            <span class="icon" aria-hidden="true">📍</span>
+                            <div>
+                                <strong>Location:</strong>
+                                <p>Pohnpei, Federated States of Micronesia &amp; Global Diaspora</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon" aria-hidden="true">📧</span>
+                            <div>
+                                <strong>Email:</strong>
+                                <p>info@kapinga-community.com</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon" aria-hidden="true">🤝</span>
+                            <div>
+                                <strong>Spirit of Ti-angai:</strong>
+                                <p>United through mutual support, collaboration, and shared cultural heritage.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-card">
+                    <h2>Send Us a Message</h2>
+                    <form method="GET" action="thankyou.html" class="community-form">
+                        
+                        <div class="form-group">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email5" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Inquiry Type</label>
+                            <select id="subject" name="subject">
+                                <option value="general">General Inquiry</option>
+                                <option value="event">Suggest an Event</option>
+                                <option value="culture">Culture &amp; Language Story</option>
+                                <option value="membership">Family / Community Directory</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <style>
+        
+    </style>
+    <footer>
+        <div class="footer-company">
+            <p>
+                <span class="bold">AMBAIA Chamber of Commerce</span>
+            </p>
+            <p>
+                10th street Pohrakiet
+            </p>
+            <p>
+                Pohrakiet, FM 96941
+            </p>
+            <p>
+                kapinga.community@gmail.com
+            </p>
+            <p>
+                (61) 926-2468
+            </p>
+        </div>
+        <div class="social">
+            <a rel="preconnect" href="https://github.com/fredbern7" target="_blank"><img src="images/github.svg" alt="gidhub" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.linkedin.com/in/bernyfred/" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.facebook.com/berny.fred.37" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+        </div>
+        <div class="berny">
+        <p>WDD231 Class Final Project</p>
+        <p>@<span id="currentyear">2026</span> | Berny Fred | Pohnpei, Micronesia</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

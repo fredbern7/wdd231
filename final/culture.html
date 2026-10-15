@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapinga Community Home Page</title>
+    <meta name="description"
+        content="This page is for WDD 231 Class project: Kapinga Community culture-page. Berny Fred is the Developer.">
+    <meta name="author" content="Berny Fred">
+
+    <!-- OG meta properties -->
+    <meta property="og:description"
+        content="This page is for WDD 231 Class project: Kapinga Community Culture Page. Berny Fred is the Developer.">
+    <meta property="og:image" content="https://fredbern7.github.io/wdd231/final/images/favicon.ico">
+    <meta property="og:url" content="https://fredbern7.github.io/wdd231/final/culture.html">
+    <meta property="og:title" content="AMBAIA Chamber Directory">
+
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Style Sheets Here -->
+    <link rel="stylesheet" href="styles/normalize.mini.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="stylesheet" href="styles/culture.css">
+
+    <script src="scripts/menu-footer.js" defer></script>
+    <script src="scripts/culture.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="site logo" width="1" height="1">
+        <span>Kapinga Community</span>
+        <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="current"><a href="culture.html">Culture/Tradition</a></li>
+                <li><a href="events.html">Event/New</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<div id="message"></div>
+        <section class="hero-container">
+            <div class="hero-wrapper">
+                <picture class="hero-picture">
+                    <source media="(max-width: 600px)" srcset="images/culture-hero-small.webp">
+                    <source media="(max-width: 1024px)" srcset="images/culture-hero-medium.webp">
+                    <img src="images/culture-hero.webp" alt="Kapinga Culture and Heritage" loading="eager">
+                </picture>
+            </div>
+
+            <div class="hero-content-wrapper">
+                <div class="hero-content">
+                    <h1>Culture &amp; Traditions</h1>
+                    <p>Honoring our ancestral roots, island values, and living Polynesian heritage.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="culture-intro">
+            <div class="culture-intro-container">
+                <h2>Welcome to the Heart of Kapinga Identity</h2>
+                <p class="intro-lead">
+                    Step into the living heritage of Kapingamarangi. Rooted in rich Polynesian traditions, our community thrives on a foundation of deep island values, ocean navigation, and interconnected family bonds.
+                </p>
+                <p>
+                    For generations, life on our home atoll has been shaped by the surrounding ocean and the wisdom passed down through ancestral storytelling, traditional weaving, and seafaring craftsmanship. Central to our way of life is the spirit of <em>ti-angai</em>—mutual support, shared work, and strong community togetherness. Whether living on the atoll or across the global diaspora, our culture remains the common thread that unites us, keeping our language, customs, and shared identity vibrant and strong for generations to come.
+                </p>
+            </div>
+        </section>
+
+        <section class="pillars-container">
+            <div class="pillars-header">
+                <h2>Pillars of Kapinga Heritage</h2>
+                <p>Discover the core traditions, arts, and community values that sustain our identity.</p>
+            </div>
+
+            <div class="pillars-grid">
+
+            </div>
+        </section>
+        <section class="gallery">
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer-company">
+            <p>
+                <span class="bold">AMBAIA Chamber of Commerce</span>
+            </p>
+            <p>
+                10th street Pohrakiet
+            </p>
+            <p>
+                Pohrakiet, FM 96941
+            </p>
+            <p>
+                kapinga.community@gmail.com
+            </p>
+            <p>
+                (61) 926-2468
+            </p>
+        </div>
+        <div class="social">
+            <a rel="preconnect" href="https://github.com/fredbern7" target="_blank"><img src="images/github.svg"
+                    alt="gidhub" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.linkedin.com/in/bernyfred/" target="_blank"><img
+                    src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.facebook.com/berny.fred.37" target="_blank"><img
+                    src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg"
+                    alt="twitter" width="16" height="16"></a>
+        </div>
+        <div class="berny">
+            <p>WDD231 Class Final Project</p>
+            <p>@<span id="currentyear">2026</span> | Berny Fred | Pohnpei, Micronesia</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

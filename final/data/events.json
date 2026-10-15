@@ -1,0 +1,44 @@
+
+    [{
+            "id": "event-001",
+            "title": "Kapinga Thanks Giving Day",
+            "type": "Cultural Gathering",
+            "category": "cultural",
+            "date": "2027-03-15",
+            "month": "MAR",
+            "day": "15",
+            "location": "Community Center",
+            "time": "10:00 AM - 4:00 PM",
+            "description": "A celebration featuring traditional dancing, weaving demonstrations, storytelling, and a community feast honoring our rich heritage.",
+            "linkText": "Event Details",
+            "linkUrl": "#"
+        },
+        {
+            "id": "event-002",
+            "title": "Quarterly Community Assembly",
+            "type": "General Meeting",
+            "category": "meeting",
+            "date": "2026-12-02",
+            "month": "DEC",
+            "day": "02",
+            "location": "Town Hall / Online Stream",
+            "time": "6:00 PM - 8:00 PM",
+            "description": "Join community leaders to discuss upcoming island projects, youth programs, and collaborative initiatives.",
+            "linkText": "View Agenda",
+            "linkUrl": "#"
+        },
+        {
+            "id": "event-003",
+            "title": "Youth Weaving & Language Session",
+            "type": "Workshop",
+            "category": "workshop",
+            "date": "2026-12-12",
+            "month": "DEC",
+            "day": "12",
+            "location": "Youth Pavilion",
+            "time": "2:00 PM - 5:00 PM",
+            "description": "An interactive workshop teaching young community members traditional pandanus leaf weaving and key Kirinit vocabulary.",
+            "linkText": "Register Youth",
+            "linkUrl": "#"
+        }
+    ]

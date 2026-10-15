@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapinga Community Home Page</title>
+    <meta name="description" content="This page is for WDD 231 Class project: Kapinga Community about-page. Berny Fred is the Developer.">
+    <meta name="author" content="Berny Fred">
+ 
+    <!-- OG meta properties -->
+    <meta property="og:description" content="This page is for WDD 231 Class project: Kapinga Community About Page. Berny Fred is the Developer.">
+    <meta property="og:image" content="https://fredbern7.github.io/wdd231/final/images/favicon.ico">
+    <meta property="og:url" content="https://fredbern7.github.io/wdd231/final/about.html">
+    <meta property="og:title" content="AMBAIA Chamber Directory">
+    
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Style Sheets Here -->
+     <link rel="stylesheet" href="styles/normalize.mini.css">
+     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/about.css">
+
+    <script src="scripts/menu-footer.js" defer></script>
+
+</head>
+<body>
+    <header>
+    <img src="images/logo.png" alt="site logo" width="1" height="1">
+    <span>Kapinga Community</span>
+    <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="about.html">About Us</a></li>
+            <li><a href="culture.html">Culture/Tradition</a></li>
+            <li><a href="events.html">Event/New</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+<main>
+        <section class="hero-container">
+                <picture class="hero-picture">
+                    <source media="(max-width: 600px)" srcset="images/culture-hero-small.webp">
+                    <source media="(max-width: 1024px)" srcset="images/culture-hero-medium.webp">
+                    <img src="images/culture-hero.webp" alt="Kapinga Community Banner" loading="eager">
+                </picture>
+
+            <div class="hero-content-wrapper">
+                <div class="hero-content">
+                    <h1>About the Kapinga Community</h1>
+                    <p>Preserving our heritage, uniting our families, and sharing our story with the world.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="about-container">
+            <!-- Our Mission & Vision Section -->
+            <section class="about-card">
+                <h2>Our Mission &amp; Vision</h2>
+                <p>
+                    The Kapinga Community Hub exists to build a bridge across islands and oceans. Our mission is to preserve the rich cultural heritage of the Kapingamarangi people, empower our members through open communication, and support community development both locally and across the global diaspora.
+                </p>
+                <p>
+                    We envision a thriving, interconnected community where every generation—regardless of where they live—remains rooted in our ancestral wisdom, values, and language.
+                </p>
+            </section>
+
+            <!-- History & Origins Section -->
+            <section class="about-card">
+                <h2>History &amp; Origins</h2>
+                <p>
+                    Originating from the secluded Polynesian outlier atoll of Kapingamarangi in Micronesia, our people have maintained a distinct linguistic and cultural identity for centuries. Shaped by deep ocean navigation, traditional backstrap loom weaving, and reliance on island resources, our ancestors cultivated a resilient community centered around mutual reliance.
+                </p>
+                <p>
+                    As community members expanded to Pohnpei and locations around the world, preserving our living history became essential. This digital platform serves as a central archive and gathering point to celebrate our seafaring legacy, document oral histories, and keep our storytelling tradition vibrant for future generations.
+                </p>
+            </section>
+
+            <!-- Core Values Section -->
+            <section class="about-card">
+                <h2>Core Values</h2>
+                <div class="about-values-grid">
+                    <article class="value-item">
+                        <h3>Unity</h3>
+                        <p>Bringing community members together across island shores and distant countries, maintaining strong family ties and collective identity.</p>
+                    </article>
+
+                    <article class="value-item">
+                        <h3>Heritage</h3>
+                        <p>Keeping our traditional language (<em>Kirinit</em>), traditional arts, weaving, and seafaring customs active and celebrated across all generations.</p>
+                    </article>
+
+                    <article class="value-item">
+                        <h3>Support</h3>
+                        <p>Fostering a network of care, mutual help (<em>ti-angai</em>), and active communication to assist and empower all community members.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Call-to-Action / Get Involved Section -->
+            <section class="about-card cta-card">
+                <h2>Get Involved</h2>
+                <p>
+                    Whether you are a community member looking for upcoming gatherings or a visitor interested in our living history, we invite you to participate!
+                </p>
+                <div class="cta-buttons">
+                    <a href="events.html" class="card-btn">View Upcoming Events</a>
+                    <a href="contact.html" class="card-btn secondary-btn">Reach Out to Us</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-company">
+            <p>
+                <span class="bold">AMBAIA Chamber of Commerce</span>
+            </p>
+            <p>
+                10th street Pohrakiet
+            </p>
+            <p>
+                Pohrakiet, FM 96941
+            </p>
+            <p>
+                kapinga.community@gmail.com
+            </p>
+            <p>
+                (61) 926-2468
+            </p>
+        </div>
+        <div class="social">
+            <a rel="preconnect" href="https://github.com/fredbern7" target="_blank"><img src="images/github.svg" alt="gidhub" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.linkedin.com/in/bernyfred/" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.facebook.com/berny.fred.37" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+        </div>
+        <div class="berny">
+        <p>WDD231 Class Final Project</p>
+        <p>@<span id="currentyear">2026</span> | Berny Fred | Pohnpei, Micronesia</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

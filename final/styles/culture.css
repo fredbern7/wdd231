@@ -1,0 +1,154 @@
+.intro-lead {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.culture-intro-container p {
+    font-family: var(--font-2);
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.culture-intro-container p:last-child {
+    margin-bottom: 0;
+}
+
+.culture-intro-container em {
+    color: var(--secondary-color);
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Cultural Pillars Section */
+.pillars-container {
+    max-width: 100%;
+    margin: 2rem 1rem;
+    padding: 1.5rem 1rem;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.pillars-header {
+    text-align: var(--text-align-center);
+    margin-bottom: 1.5rem;
+}
+
+.pillars-header h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.pillars-header p {
+    font-family: var(--font-2);
+    font-size: 0.95rem;
+    color: var(--text-color);
+}
+
+.pillars-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.pillar-card {
+    background-color: var(--background-color);
+    padding: 1.5rem 1.25rem;
+    border-radius: 10px;
+    border-top: 4px solid var(--secondary-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pillar-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    border-top-color: var(--accent-color);
+}
+
+.pillar-icon {
+    font-size: 2.2rem;
+    margin-bottom: 0.75rem;
+}
+
+.pillar-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.pillar-card p {
+    font-family: var(--font-2);
+    font-size: 0.95rem;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.pillar-card em {
+    color: var(--secondary-color);
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 38rem) {
+
+    .intro-lead {
+        font-size: 1.15rem;
+    }
+
+    .culture-intro-container p {
+        font-size: 1.05rem;
+        line-height: 1.7;
+    }
+
+    .pillars-container {
+        max-width: 1100px;
+        margin: 3rem auto;
+        padding: 0 var(--padding-15px);
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .pillars-header {
+        margin-bottom: 2.5rem;
+    }
+
+    .pillars-header h2 {
+        font-size: 2rem;
+    }
+
+    .pillars-header p {
+        font-size: 1.1rem;
+    }
+
+    .pillars-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .pillar-card {
+        background-color: var(--white);
+        padding: 2rem 1.5rem;
+    }
+
+    .pillar-icon {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .pillar-card h3 {
+        font-size: 1.35rem;
+    }
+
+    .pillar-card p {
+        font-size: 1rem;
+    }
+}
