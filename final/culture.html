@@ -30,7 +30,11 @@
 
 <body>
     <header>
-        <img src="images/logo.png" alt="site logo" width="1" height="1">
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/logo-small.webp">
+            <source media="(max-width: 1024px)" srcset="images/logo-medium.webp">
+            <img src="images/logo.webp" alt="site logo" width="1" height="1">
+        </picture>
         <span>Kapinga Community</span>
         <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
         <nav id="nav-bar" class="navigation">
@@ -45,7 +49,7 @@
     </header>
 
     <main>
-<div id="message"></div>
+        <div id="message"></div>
         <section class="hero-container">
             <div class="hero-wrapper">
                 <picture class="hero-picture">
@@ -67,10 +71,16 @@
             <div class="culture-intro-container">
                 <h2>Welcome to the Heart of Kapinga Identity</h2>
                 <p class="intro-lead">
-                    Step into the living heritage of Kapingamarangi. Rooted in rich Polynesian traditions, our community thrives on a foundation of deep island values, ocean navigation, and interconnected family bonds.
+                    Step into the living heritage of Kapingamarangi. Rooted in rich Polynesian traditions, our community
+                    thrives on a foundation of deep island values, ocean navigation, and interconnected family bonds.
                 </p>
                 <p>
-                    For generations, life on our home atoll has been shaped by the surrounding ocean and the wisdom passed down through ancestral storytelling, traditional weaving, and seafaring craftsmanship. Central to our way of life is the spirit of <em>ti-angai</em>—mutual support, shared work, and strong community togetherness. Whether living on the atoll or across the global diaspora, our culture remains the common thread that unites us, keeping our language, customs, and shared identity vibrant and strong for generations to come.
+                    For generations, life on our home atoll has been shaped by the surrounding ocean and the wisdom
+                    passed down through ancestral storytelling, traditional weaving, and seafaring craftsmanship.
+                    Central to our way of life is the spirit of <em>ti-angai</em>—mutual support, shared work, and
+                    strong community togetherness. Whether living on the atoll or across the global diaspora, our
+                    culture remains the common thread that unites us, keeping our language, customs, and shared identity
+                    vibrant and strong for generations to come.
                 </p>
             </div>
         </section>
@@ -86,7 +96,7 @@
             </div>
         </section>
         <section class="gallery">
-            
+
         </section>
     </main>
     <footer>
