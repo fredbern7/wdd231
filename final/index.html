@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kapinga Community Home Page</title>
-    <meta name="description" content="This page is for WDD 231 Class project: Kapinga Community Home Page. Berny Fred is the Developer.">
+    <meta name="description"
+        content="This page is for WDD 231 Class project: Kapinga Community Home Page. Berny Fred is the Developer.">
     <meta name="author" content="Berny Fred">
- 
+
     <!-- OG meta properties -->
-    <meta property="og:description" content="This page is for WDD 231 Class project: Kapinga Community Home Page. Berny Fred is the Developer.">
+    <meta property="og:description"
+        content="This page is for WDD 231 Class project: Kapinga Community Home Page. Berny Fred is the Developer.">
     <meta property="og:image" content="https://fredbern7.github.io/wdd231/final/images/favicon.ico">
     <meta property="og:url" content="https://fredbern7.github.io/wdd231/final/index.html">
     <meta property="og:title" content="AMBAIA Chamber Directory">
     <link rel="icon" href="images/favicon.ico">
     <!-- Style Sheets Here -->
-     <link rel="stylesheet" href="styles/normalize.mini.css">
-     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.mini.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/header-footer.css">
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/home.css">
@@ -23,8 +26,15 @@
     <script src="scripts/menu-footer.js" defer></script>
 
 </head>
-<body><header>
-        <img src="images/logo.png" alt="site logo" width="1" height="1">
+
+<body>
+    <header>
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/logo-small.webp">
+            <source media="(max-width: 1024px)" srcset="images/logo-medium.webp">
+            <img src="images/logo.webp" alt="site logo" width="1" height="1">
+        </picture>
+
         <span>Kapinga Community</span>
         <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
         <nav id="nav-bar" class="navigation">
@@ -61,10 +71,15 @@
         <section class="welcome-summary">
             <h2>Welcome to the Kapinga Community Hub</h2>
             <p class="mission-statement">
-                <strong>Our Mission:</strong> To connect, preserve, and empower the Kapinga community across islands and oceans by providing a central platform for cultural celebration, historical storytelling, and active community engagement.
+                <strong>Our Mission:</strong> To connect, preserve, and empower the Kapinga community across islands and
+                oceans by providing a central platform for cultural celebration, historical storytelling, and active
+                community engagement.
             </p>
             <p>
-                Welcome to our official digital gathering place! The Kapinga Community Hub is dedicated to bringing our people together—whether you are living on our home island or connecting from abroad. Explore our pages to discover our history, stay connected with fellow members, and join us in honoring the vibrant spirit of <em>ti-angai</em>.
+                Welcome to our official digital gathering place! The Kapinga Community Hub is dedicated to bringing our
+                people together—whether you are living on our home island or connecting from abroad. Explore our pages
+                to discover our history, stay connected with fellow members, and join us in honoring the vibrant spirit
+                of <em>ti-angai</em>.
             </p>
         </section>
 
@@ -79,12 +94,18 @@
                 <!-- Card 1: Culture & Heritage -->
                 <article class="feature-card">
                     <div class="card-image-wrapper">
-                        <img src="images/culture-preview.webp" alt="Kapinga traditional craft display" loading="lazy">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="images/culture-preview-small.webp">
+                            <source media="(max-width: 1024px)" srcset="images/culture-preview-medium.webp">
+                            <img src="images/culture-preview.webp" alt="Kapinga traditional craft display"
+                                loading="lazy">
+                        </picture>
                     </div>
                     <div class="card-content">
                         <h3>Culture &amp; Heritage</h3>
                         <p>
-                            Discover the rich traditions, language preservation (<em>Kirinit</em>), traditional weaving, and seafaring knowledge that define Kapinga identity.
+                            Discover the rich traditions, language preservation (<em>Kirinit</em>), traditional weaving,
+                            and seafaring knowledge that define Kapinga identity.
                         </p>
                         <a href="culture.html" class="card-btn">Explore Culture</a>
                     </div>
@@ -93,12 +114,19 @@
                 <!-- Card 2: Events & News -->
                 <article class="feature-card">
                     <div class="card-image-wrapper">
-                        <img src="images/events-preview.webp" alt="Community members gathering for an event" loading="lazy">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="images/events-preview-small.webp">
+                            <source media="(max-width: 1024px)" srcset="images/events-preview-medium.webp">
+                            <img src="images/events-preview.webp" alt="Community members gathering for an event"
+                                loading="lazy">
+                        </picture>
+
                     </div>
                     <div class="card-content">
                         <h3>Events &amp; Announcements</h3>
                         <p>
-                            Stay informed about upcoming community gatherings, cultural celebrations, quarterly assemblies, and youth workshops.
+                            Stay informed about upcoming community gatherings, cultural celebrations, quarterly
+                            assemblies, and youth workshops.
                         </p>
                         <a href="events.html" class="card-btn">View All Events</a>
                     </div>
@@ -125,16 +153,21 @@
             </p>
         </div>
         <div class="social">
-            <a rel="preconnect" href="https://github.com/fredbern7" target="_blank"><img src="images/github.svg" alt="gidhub" width="16" height="16"></a>
-            <a rel="preconnect" href="https://www.linkedin.com/in/bernyfred/" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
-            <a rel="preconnect" href="https://www.facebook.com/berny.fred.37" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
-            <a rel="preconnect" href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+            <a rel="preconnect" href="https://github.com/fredbern7" target="_blank"><img src="images/github.svg"
+                    alt="gidhub" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.linkedin.com/in/bernyfred/" target="_blank"><img
+                    src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.facebook.com/berny.fred.37" target="_blank"><img
+                    src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a rel="preconnect" href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg"
+                    alt="twitter" width="16" height="16"></a>
         </div>
         <div class="berny">
-        <p>WDD231 Class Final Project</p>
-        <p>@<span id="currentyear">2026</span> | Berny Fred | Pohnpei, Micronesia</p>
-        <p>Last Modification: <span id="lastModified"></span></p>
+            <p>WDD231 Class Final Project</p>
+            <p>@<span id="currentyear">2026</span> | Berny Fred | Pohnpei, Micronesia</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
         </div>
     </footer>
 </body>
+
 </html>
