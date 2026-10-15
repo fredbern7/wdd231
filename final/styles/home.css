@@ -1,3 +1,16 @@
+:root {
+
+    --primary-color: #1b5299;
+    --secondary-color: #2d8a4e;
+    --accent-color: #d4af37;
+    --text-color: #22252a;
+    --background-color: #f8f9fa;
+    --white: #ffff;
+    --font-1: "Poppins", sans-serif;
+    --font-2: "Roboto", sans-serif;
+    --font-3: "Intel One Mono", monospace;
+    --border-radius: 5px
+}
 .welcome-summary {
   background-color: var(--white);
   padding: 2.5rem 1.5rem;

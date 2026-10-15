@@ -1,0 +1,38 @@
+:root {
+
+    --primary-color: #1b5299;
+    --secondary-color: #2d8a4e;
+    --accent-color: #d4af37;
+    --text-color: #22252a;
+    --background-color: #f8f9fa;
+    --white: #ffff;
+    --font-1: "Poppins", sans-serif;
+    --font-2: "Roboto", sans-serif;
+    --font-3: "Intel One Mono", monospace;
+    --border-radius: 5px
+}
+.thank-you-wrapper {
+            margin: 0 auto;
+            padding: 1rem;
+            max-width: 25rem;
+            border-radius: 1rem;
+            border: 1px dashed var(--primary-color);
+        }
+
+        h1, h3, p {
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--primary-color);
+        }
+
+        h3 {
+            color: var(--secondary-color);
+        }
+        .form-message {
+            padding: .5rem;
+            border-radius: .5rem;
+            border: var(--accent-color) solid 1px;
+        }

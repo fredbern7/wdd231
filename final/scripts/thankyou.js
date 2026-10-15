@@ -1,9 +1,9 @@
-// console.log('hello')
-// const getString = window.location.search;
-// console.log(getString);
-
-const client = new URLSearchParams(window.location.search);
+const message = new URLSearchParams(window.location.search);
 
 document.querySelector("#thankyou").innerHTML = `
-<p>Thank you ${client.get('first')} ${client.get('last')} for join in us. We are grateful for having you a $</p>
-`
+<p>Thank you ${message.get('fullname')}, for sending us your ${message.get('subject')}.</p>
+<h3>Your ${message.get('subject')}...</h3>
+<div class="form-message">
+<p>${message.get('message')}</p>
+</div>
+`;
