@@ -33,7 +33,7 @@ function createEventCard(event) {
         <div class="event-details">
             <span class="event-type ${event.category}">${event.type}</span>
             <h3>${event.title}</h3>
-            <p class="event-meta">📍 ${event.location} &bull; ⏰ ${event.time}</p>
+            <p class="event-meta">${event.location} &bull; ${event.time}</p>
             <p class="event-description">
                 ${event.description}
             </p>

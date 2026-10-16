@@ -71,7 +71,6 @@
   margin-top: 0.2rem;
 }
 
-/* Card Body Details */
 .event-details {
   padding: 1.5rem;
   flex-grow: 1;
@@ -89,7 +88,7 @@
 
 .event-type.cultural {
   background-color: #e8f5e9;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .event-type.meeting {
@@ -99,7 +98,7 @@
 
 .event-type.workshop {
   background-color: #fef9e7;
-  color: #b89628;
+  color: var(--primary-color);
 }
 
 .event-details h3 {
@@ -125,7 +124,7 @@
 
 .event-link {
   font-weight: 600;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 0.95rem;
 }
