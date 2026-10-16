@@ -5,7 +5,7 @@
     --accent-color: #d4af37;
     --text-color: #22252a;
     --background-color: #f8f9fa;
-    --white: #ffff;
+    --white: #ffffff;
     --dark: #1A1A1A;
     --font-1: "Poppins", sans-serif;
     --font-2: "Roboto", sans-serif;
@@ -19,7 +19,7 @@
   padding: 0;
 }
 
-#message {
+.message {
     background-color: var(--accent-color);
     padding: .2rem;
     font-family: var(--font-1);
@@ -107,12 +107,12 @@ padding: 10px;
     transition: color 0.2s;
 }
 .navigation li.current a {
-    color: var(--white);
+    color: var(--dark);
     background-color: var(--accent-color);
     font-weight: bolder;
 }
 .navigation a:hover {
-    color: var(--white);
+    color: var(--dark);
     background-color: var(--accent-color);
     font-weight: bolder;
 }
@@ -207,7 +207,7 @@ footer {
 
 
 @media only screen and (min-width: 38rem) {
-    #message,
+    .message,
     header,
     main,
     nav,
@@ -216,7 +216,7 @@ footer {
         margin: 0 auto
     }
 
-    #message {
+    .message {
         padding: 10px;
         font-size: 1.5rem;
     }
