@@ -11,28 +11,32 @@
     --font-3: "Intel One Mono", monospace;
     --border-radius: 5px
 }
+
 .thank-you-wrapper {
-            margin: 0 auto;
-            padding: 1rem;
-            max-width: 25rem;
-            border-radius: 1rem;
-            border: 1px dashed var(--primary-color);
-        }
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 25rem;
+    border-radius: 1rem;
+    border: 1px dashed var(--primary-color);
+}
 
-        h1, h3, p {
-            margin: 0;
-            text-align: center;
-        }
+h1,
+h3,
+p {
+    margin: 0;
+    text-align: center;
+}
 
-        h1 {
-            color: var(--primary-color);
-        }
+h1 {
+    color: var(--primary-color);
+}
 
-        h3 {
-            color: var(--secondary-color);
-        }
-        .form-message {
-            padding: .5rem;
-            border-radius: .5rem;
-            border: var(--accent-color) solid 1px;
-        }
+h3 {
+    color: var(--secondary-color);
+}
+
+.form-message {
+    padding: .5rem;
+    border-radius: .5rem;
+    border: var(--accent-color) solid 1px;
+}
