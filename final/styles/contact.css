@@ -54,11 +54,6 @@
   gap: 1rem;
 }
 
-.contact-details-list .icon {
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
 .contact-details-list strong {
   color: var(--primary-color);
   display: block;
