@@ -110,7 +110,7 @@
   font-family: 'Inter', sans-serif;
   font-weight: bolder;
   font-size: 1rem;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: var(--white);
   padding: 0.85rem 1.5rem;
   border: none;
@@ -122,6 +122,7 @@
 }
 
 .submit-btn:hover {
-  background-color: #236c3d;
+  background-color: var(--secondary-color);
+  color: var(--dark);
   transform: translateY(-1px);
 }
