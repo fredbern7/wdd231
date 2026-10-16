@@ -22,5 +22,3 @@ function createCultureCard(culture) {
         cultureContainer.appendChild(card);
     }
 }
-
-getCulture();

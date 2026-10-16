@@ -41,7 +41,6 @@ function createEventCard(event) {
         </div>
     `;
 
-    // Append the card to the container grid
     eventContainer.appendChild(card);
 }
 
