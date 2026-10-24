@@ -75,7 +75,7 @@ const courses = [
             'JavaScript'
         ],
         completed: true
-    }
+    },
 ]
 
 const all = document.getElementById("filter-all-btn");
